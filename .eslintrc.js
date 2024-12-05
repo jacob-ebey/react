@@ -330,6 +330,7 @@ module.exports = {
         'packages/react-server-dom-esm/**/*.js',
         'packages/react-server-dom-webpack/**/*.js',
         'packages/react-server-dom-turbopack/**/*.js',
+        'packages/react-server-dom-vite/**/*.js',
         'packages/react-server-dom-fb/**/*.js',
         'packages/react-test-renderer/**/*.js',
         'packages/react-debug-tools/**/*.js',
@@ -480,6 +481,9 @@ module.exports = {
         __turbopack_load__: 'readonly',
         __turbopack_require__: 'readonly',
       },
+    },
+    {
+      files: ['packages/react-server-dom-vite/**/*.js'],
     },
     {
       files: ['packages/scheduler/**/*.js'],
